@@ -1,5 +1,3 @@
-require = "pry"
-
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
@@ -7,7 +5,6 @@ def turn_count(board)
     turn_number = 0
     if space == "X" || "O" == true
       turn_number += 1
-      binding.pry
     end
   end
 end
