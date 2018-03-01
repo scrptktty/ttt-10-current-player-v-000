@@ -7,6 +7,7 @@ def turn_count(board)
     turn_number = 0
     if space == "O" || "X"
       turn_number += 1
+      puts "#{turn_number}"
     end
       return turn_number
   end
