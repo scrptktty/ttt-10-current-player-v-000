@@ -1,13 +1,10 @@
-require "pry"
-
 def turn_count(board)
   turn = 0
   board.each do |space|
-    if space == "O" || space == "X"
+    if space == ("O" || "X")
     turn += 1
   end
-
 end
 
-def current_player
-end
+# def current_player
+# end
