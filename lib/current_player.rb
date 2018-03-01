@@ -1,5 +1,8 @@
 def turn_count(board)
-  board.each{|turn_number| puts "#{turn_number}" }
+  turn_count = 0
+  board.each do |turn_number|
+    turn_count += 1
+  end
 end
 
 # brothers = ["Tim", "Tom", "Jim"]
