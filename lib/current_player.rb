@@ -1,5 +1,3 @@
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
-
 def turn_count(board)
   board.each do |space|
     turn_number = 0
