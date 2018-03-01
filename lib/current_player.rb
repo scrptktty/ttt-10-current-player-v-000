@@ -7,8 +7,8 @@ def turn_count(board)
     turn_number = 0
     if space == "X" || "O"
       turn_number += 1
+      binding.pry
     end
-      return turn_number
   end
 end
 
