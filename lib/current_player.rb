@@ -1,12 +1,12 @@
 require "pry"
 
 def turn_count(board)
-  turn_count = 0
+  turn = 0
 
   board.each do |space|
     if space == "O" || space == "X"
-    turn_count += 1
+    turn += 1
   end
 
-  return turn_count
+  return turn
 end
